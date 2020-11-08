@@ -13,6 +13,20 @@
   margin: 0;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.footer {
+  grid-row: 2 / span 1;
+}
+
 article {
   padding: 1.5rem 0;
 }
